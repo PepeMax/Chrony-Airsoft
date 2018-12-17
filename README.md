@@ -8,7 +8,7 @@ Je devais tester une réplique d'un ami pour voir si elle n'était pas trop puis
 J'ai donc décidé de chercher sur le web si quelqu'un avait déjà tenté d'en fabriquer un, j'ai trouvé un tuto sur france-airsoft.fr, le problème était qu'il fallait obligatoirement un PC avec une carte son avec soi pour le faire fonctionner (le lien du tuto en bas).
 Passionner par l'univers Arduino j'ai essayé de reproduire le mécanisme du tuto mais avec un Arduino pour qu'il soit autonome, transportable partout et léger :joy:.
 
-## Qu'est-ce qu'il fait et de quoi à ton besoin 
+## Qu'est-ce qu'il fait et de quoi-a-t-on besoin ?
 Ce chrony permet de mesurer trois valeurs :
 
  - Le nombre de FPS 
@@ -25,7 +25,7 @@ Pour le réaliser on a besoin :
 - [ ] d'une imprimante 3D ou de quelques morceaux de bois, de tubes en PVC, etc pour la boîte.
 - [ ] d'un téléphone portable pour recevoir les valeurs.
 
-## Comment ça marche
+## Comment ça marche ?
 
 On a un tube où l'on va tirer avec ça réplique.
 Sur ce tube on va venir mettre une LED IR et un phototransistor face à face comme sur l'image :
@@ -36,7 +36,7 @@ Le phototransistor réagit quand il reçoit un rayon infrarouge, dès qu'il va r
 
 ### Explication du code
 
-Quand l'Arduino va démarrer il va "attendre" il va falloir appuyer sur le bouton ON/OFF pour allumer les LEDs, dès que les LEDs vont être allumées les phototransistors vont envoyer une impulsion constante à l'Arduino, jusqu'ici rien ne se passe, je n'ai toujours pas tiré.
+Quand l'Arduino va démarré il va "attendre" il va falloir appuyer sur le bouton ON/OFF pour allumer les LEDs, dès que les LEDs vont être allumées les phototransistors vont envoyer une impulsion constante à l'Arduino, jusqu'ici rien ne se passe, je n'ai toujours pas tiré.
 
 ![Plan](./Images/Plan_2.png)
 
