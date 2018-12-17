@@ -1,5 +1,5 @@
 # Chrony Airsoft
-Voici un Chrony pas chère à faire, fait maison et Open Source.
+Voici un Chrony pas cher à faire, fait maison et Open Source.
 Dans ce Git vous trouverez un tuto complet pour créer une réplique de chrony avec un Arduino.
 Pour précision un enfant de 12 ans pourrais faire ce chrony il n'est vraiment pas complexe à fabriquer. 
 
