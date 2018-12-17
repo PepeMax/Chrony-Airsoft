@@ -1,3 +1,9 @@
+/*
+Nom : Chrony pour airsoft
+Créateur : PépéMax
+Version : 1.0.0
+*/
+
 #define BOUTON 2
 #define CAPTEUR_1 3
 #define CAPTEUR_2 4
