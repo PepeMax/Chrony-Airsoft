@@ -13,10 +13,10 @@ Version : 1.0.0
 float poids_bille = 0.20; // Grammage de la bille en g
 float distance_capteur = 0.1; // Distance des deux capteurs en mètre
 
-float temps_bille; // Temps quer la bille met pour traverser les deux capteurs en seconde
+float temps_bille; // Temps que la bille met pour traverser les deux capteurs en seconde
 float vitesse_bille; // Vitesse de la bille en m/s
-float joule_bille; // Puissance dévellopé par la réplique en J
-float fps_bille; // Nombre de FPS de la réplique
+float joule_bille; // Puissance dévellopée par la réplique en J
+float fps_bille; // Nombres de FPS de la réplique
 
 float temps_capteur_1;
 float temps_capteur_2;
@@ -50,18 +50,18 @@ void loop() {
     digitalWrite(EMETTEUR_2, HIGH);
 
     if (etat_capteur_1 == LOW) {
-      temps_capteur_1 = millis();
+      temps_capteur_1 = micros();
       Serial.println(temps_capteur_1);
     }
 
     if (etat_capteur_2 == LOW) {                                       
-      temps_capteur_2 = millis();
+      temps_capteur_2 = micros();
       Serial.println(temps_capteur_2);
     }
 
     //Calculs
 
-    temps_bille = (temps_capteur_2 - temps_capteur_1)/1000; // Temps que la bille met pour traverser les deux capteurs en seconde
+    temps_bille = (temps_capteur_2 - temps_capteur_1)/1000000;
     vitesse_bille = distance_capteur/temps_bille;
     joule_bille = 0.5*(poids_bille/1000)*pow(vitesse_bille, 2);
     fps_bille = vitesse_bille/0.3048;
