@@ -58,7 +58,7 @@ Pour commencer, il faut créer votre boîte.
 La boîte à peu d'importance donc vous pouvez la faire comme vous voulez, par contre le tube dans lequel on va tirer doit être hyper précis c'est pour ça que j'utilise une imprimante 3D pour la faire.
 
 ![Plan](./Docs/Plan_3D_tube.png)
-![Plan](./Docs/Plan_3D_maintien.png)
+![Plan](./Docs/Plan_3D_maintien_tube.png)
 
 :bangbang: ATTENTION :bangbang: : la distance entre les deux LEDs doit être très précise et prenez un entier (plus simple pour les calculs) genre 1 cm ou 2 cm ou même 10 cm comme dans le tuto de france-airsoft.fr, de même la distance entre les deux phototransistors doit être la même que celle des LEDs.
 :bangbang: ATTENTION :bangbang: : cette distance doit être renseignée dans le code à la ligne 8 à la variable *distance_capteur*.
