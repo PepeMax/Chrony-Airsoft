@@ -60,10 +60,12 @@ La boîte à peu d'importance donc vous pouvez la faire comme vous voulez, par c
 ![Plan](./Docs/Plan_3D_tube.png)
 ![Plan](./Docs/Plan_3D_maintien.png)
 
-Cette image a été faite à l'arrache mais bon le tube vert est celui où l'on va tirer, et les deux autres noirs ce sont les deux LEDs IR et de l'autre côté du tube on a aussi deux tubes noirs où sont les phototransistors.
-
 :bangbang: ATTENTION :bangbang: : la distance entre les deux LEDs doit être très précise et prenez un entier (plus simple pour les calculs) genre 1 cm ou 2 cm ou même 10 cm comme dans le tuto de france-airsoft.fr, de même la distance entre les deux phototransistors doit être la même que celle des LEDs.
 :bangbang: ATTENTION :bangbang: : cette distance doit être renseignée dans le code à la ligne 8 à la variable *distance_capteur*.
+
+Le montage :
+
+![Plan](./Docs/Plan_3D_montage.png)
 
 ### Le montage électronique
 
