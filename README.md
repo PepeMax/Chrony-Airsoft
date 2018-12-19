@@ -1,5 +1,5 @@
 # Chrony Airsoft
-Voici un Chrony pas chère à faire, fait maison et Open Source.
+Voici un Chrony pas cher à faire, fait maison et Open Source.
 Dans ce Git vous trouverez un tuto complet pour créer une réplique de chrony avec un Arduino.
 Pour précision un enfant de 12 ans pourrait faire ce chrony il n'est vraiment pas complexe à fabriquer. 
 
@@ -51,11 +51,14 @@ A savoir : dans 1 seconde il y a 1 000 millisecondes et dans 1 seconde il y a 1 
 ### Le montage mécanique
 Pour commencer, il faut créer votre boîte.
 
-Image à mettre en 3D
+![Plan](./Docs/Plan_3D_dessous.png)
+![Plan](./Docs/Plan_3D_dessus.png)
+
 
 La boîte à peu d'importance donc vous pouvez la faire comme vous voulez, par contre le tube dans lequel on va tirer doit être hyper précis c'est pour ça que j'utilise une imprimante 3D pour la faire.
 
-![Plan](./Docs/Plan_3.png)
+![Plan](./Docs/Plan_3D_tube.png)
+![Plan](./Docs/Plan_3D_maintien.png)
 
 Cette image a été faite à l'arrache mais bon le tube vert est celui où l'on va tirer, et les deux autres noirs ce sont les deux LEDs IR et de l'autre côté du tube on a aussi deux tubes noirs où sont les phototransistors.
 
