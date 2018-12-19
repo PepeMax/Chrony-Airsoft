@@ -58,7 +58,7 @@ Pour commencer, il faut créer votre boîte.
 La boîte à peu d'importance donc vous pouvez la faire comme vous voulez, par contre le tube dans lequel on va tirer doit être hyper précis c'est pour ça que j'utilise une imprimante 3D pour la faire.
 
 ![Plan](./Docs/Plan_3D_tube.png)
-![Plan](./Docs/Plan_3D_maintien.png)
+![Plan](./Docs/Plan_3D_maintien_tube.png)
 
 Cette image a été faite à l'arrache mais bon le tube vert est celui où l'on va tirer, et les deux autres noirs ce sont les deux LEDs IR et de l'autre côté du tube on a aussi deux tubes noirs où sont les phototransistors.
 
